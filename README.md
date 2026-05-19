@@ -15,6 +15,18 @@ The project analyzes temporal and geographical weather patterns to predict futur
 
 ---
 
+# 🚀 PM Accelerator Mission
+
+> “By making industry-leading tools and education available to individuals from all backgrounds, we level the playing field for future PM leaders.”
+
+PM Accelerator aims to provide education, access, and opportunities for aspiring and experienced Product Managers through training, mentorship, and AI-driven product management skills development.
+
+This project aligns with PM Accelerator’s mission by applying data science and machine learning techniques to solve real-world forecasting problems through accessible and practical analytics.
+
+Source: PM Accelerator — About Us page.
+
+---
+
 # 📂 Dataset
 
 Dataset used:
@@ -55,7 +67,7 @@ Implemented a complete preprocessing pipeline including:
 
 ## Specification
 
-Missing value handling turned out to be unnecesary, dince the dataset did not have any. 
+Missing value handling turned out to be unnecessary since the dataset did not contain missing values.
 
 ### Feature Engineering
 
@@ -70,7 +82,7 @@ Key engineered features include:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+# 📊 Exploratory Data Analysis (EDA)
 
 Performed extensive EDA to understand weather behavior and temporal patterns:
 
@@ -84,7 +96,7 @@ Performed extensive EDA to understand weather behavior and temporal patterns:
 
 ---
 
-## 🌍 Spatial Analysis
+# 🌍 Spatial Analysis
 
 Implemented geographical weather analysis using:
 
@@ -97,7 +109,7 @@ This helped identify geographical temperature patterns and climate clusters worl
 
 ---
 
-## 🔍 Feature Importance Analysis
+# 🔍 Feature Importance Analysis
 
 Feature importance was analyzed using tree-based models to determine which variables contributed most to forecasting performance.
 
@@ -123,7 +135,7 @@ The following machine learning models were trained and evaluated:
 | Random Forest | 1.431488 | 2.051771 | 0.948929 |
 | XGBoost | 1.325719 | 1.886768 | 0.956813 |
 
-
+---
 
 # 💡 Key Insights
 
@@ -169,7 +181,6 @@ weather_forecasting.ipynb
 
 ---
 
-
 # 📁 Project Structure
 
 ```text
@@ -180,7 +191,6 @@ weather_forecasting.ipynb
 │   ├── preprocessing.py
 │   ├── metrics.py
 │   └── utils.py
-│
 │
 ├── requirements.txt
 └── README.md
